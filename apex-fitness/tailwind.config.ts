@@ -22,6 +22,12 @@ const config: Config = {
           300: "#222222",
           400: "#2a2a2a",
         },
+        main: "var(--bg-primary)",
+        sub: "var(--bg-secondary)",
+        card: "var(--bg-card)",
+        "card-hover": "var(--bg-card-hover)",
+        "primary-text": "var(--text-primary)",
+        "secondary-text": "var(--text-secondary)",
       },
       fontFamily: {
         heading: ["var(--font-bebas)", "sans-serif"],

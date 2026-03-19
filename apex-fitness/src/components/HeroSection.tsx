@@ -120,8 +120,8 @@ export default function HeroSection() {
             }`}
             style={{ transitionDelay: "0.2s" }}
           >
-            <span className="block text-white text-[clamp(56px,10vw,120px)]">TRANSFORM </span>
-            <span className="block text-[clamp(56px,10vw,120px)]">
+            <span className="block text-primary-text text-[clamp(56px,10vw,120px)]">TRANSFORM </span>
+            <span className="block text-[clamp(56px,10vw,120px)] text-primary-text">
               YOUR{" "}
               <span
                 className="text-gold"
@@ -134,7 +134,7 @@ export default function HeroSection() {
 
           {/* Subtitle */}
           <p
-            className={`text-white/70 text-lg md:text-xl max-w-xl mb-10 leading-relaxed transition-all duration-700 ${
+            className={`text-secondary-text text-lg md:text-xl max-w-xl mb-10 leading-relaxed transition-all duration-700 ${
               loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
             }`}
             style={{ transitionDelay: "0.4s" }}

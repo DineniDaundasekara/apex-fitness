@@ -8,6 +8,16 @@
   --gold: #C9A227;
   --gold-light: #E2B93B;
   --gold-dark: #A8841E;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f8f8;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f0f0f0;
+  --text-primary: #0a0a0a;
+  --text-secondary: #444444;
+  --border-color: rgba(0, 0, 0, 0.1);
+}
+
+.dark {
   --bg-primary: #0a0a0a;
   --bg-secondary: #111111;
   --bg-card: #1a1a1a;
@@ -159,9 +169,9 @@ body {
 
 /* Input styles */
 .input-dark {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: white;
+  background: var(--bg-card-hover);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
   transition: all 0.3s ease;
 }
 
@@ -172,7 +182,8 @@ body {
 }
 
 .input-dark::placeholder {
-  color: #555;
+  color: var(--text-secondary);
+  opacity: 0.5;
 }
 
 /* Noise texture overlay */

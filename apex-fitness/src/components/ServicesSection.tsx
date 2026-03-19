@@ -54,10 +54,10 @@ export default function ServicesSection() {
             <span className="w-12 h-px bg-gold/50" />
           </div>
           <h2 className="font-bebas text-5xl md:text-6xl lg:text-7xl leading-none">
-            <span className="text-white">PREMIUM </span>
+            <span className="text-primary-text">PREMIUM </span>
             <span className="text-gold">SERVICES</span>
           </h2>
-          <p className="text-white/60 max-w-xl mx-auto mt-4 leading-relaxed">
+          <p className="text-secondary-text max-w-xl mx-auto mt-4 leading-relaxed">
             Discover our comprehensive range of fitness services designed to help you achieve your
             goals with expert guidance and premium facilities.
           </p>
@@ -80,10 +80,10 @@ export default function ServicesSection() {
                   <Icon size={22} className="text-black" />
                 </div>
 
-                <h3 className="font-barlow font-700 text-white text-lg tracking-wide uppercase mb-2">
+                <h3 className="font-barlow font-700 text-primary-text text-lg tracking-wide uppercase mb-2">
                   {service.title}
                 </h3>
-                <p className="text-white/50 text-sm leading-relaxed mb-4">{service.desc}</p>
+                <p className="text-secondary-text text-sm leading-relaxed mb-4">{service.desc}</p>
 
                 <button className="text-gold text-sm font-barlow font-600 tracking-wider uppercase flex items-center gap-1 group-hover:gap-3 transition-all duration-300">
                   Learn More

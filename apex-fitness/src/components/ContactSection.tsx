@@ -102,11 +102,11 @@ export default function ContactSection() {
             <span className="w-12 h-px bg-gold/50" />
           </div>
           <h2 className="font-bebas text-5xl md:text-6xl lg:text-7xl leading-none mb-4">
-            <span className="text-white">READY TO </span>
+            <span className="text-primary-text">READY TO </span>
             <span className="text-gold">TRANSFORM</span>
-            <span className="text-white"> YOUR BODY?</span>
+            <span className="text-primary-text"> YOUR BODY?</span>
           </h2>
-          <p className="text-white/60 max-w-xl mx-auto leading-relaxed">
+          <p className="text-secondary-text max-w-xl mx-auto leading-relaxed">
             Join our community of champions. Whether you&apos;re curious about memberships,
             personal training, or just want to visit our facility — we&apos;re here to help.
           </p>
@@ -128,8 +128,8 @@ export default function ContactSection() {
                 <Icon size={20} className="text-gold group-hover:text-black transition-colors" />
               </div>
               <div>
-                <h4 className="font-barlow font-700 text-white tracking-wide uppercase text-sm mb-1">{title}</h4>
-                <p className="text-white/40 text-xs mb-2">{subtitle}</p>
+                <h4 className="font-barlow font-700 text-primary-text tracking-wide uppercase text-sm mb-1">{title}</h4>
+                <p className="text-secondary-text/60 text-xs mb-2">{subtitle}</p>
                 <p className="text-gold text-sm font-barlow font-600">{value}</p>
               </div>
             </a>
@@ -143,8 +143,8 @@ export default function ContactSection() {
           }`}
         >
           <div className="card-dark rounded-2xl p-8 md:p-10">
-            <h3 className="font-bebas text-3xl text-white tracking-wider mb-1">Send Us a Message</h3>
-            <p className="text-white/50 text-sm mb-8">Fill out the form and our team will get back to you shortly.</p>
+            <h3 className="font-bebas text-3xl text-primary-text tracking-wider mb-1">Send Us a Message</h3>
+            <p className="text-secondary-text/70 text-sm mb-8">Fill out the form and our team will get back to you shortly.</p>
 
             {/* Success message */}
             {status === "success" && (
@@ -159,7 +159,7 @@ export default function ContactSection() {
             <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
               {/* Name */}
               <div>
-                <label className="font-barlow text-sm text-white/70 uppercase tracking-widest mb-2 block">
+                <label className="font-barlow text-sm text-secondary-text/80 uppercase tracking-widest mb-2 block">
                   Full Name <span className="text-gold">*</span>
                 </label>
                 <input
@@ -182,7 +182,7 @@ export default function ContactSection() {
 
               {/* Email */}
               <div>
-                <label className="font-barlow text-sm text-white/70 uppercase tracking-widest mb-2 block">
+                <label className="font-barlow text-sm text-secondary-text/80 uppercase tracking-widest mb-2 block">
                   Email Address <span className="text-gold">*</span>
                 </label>
                 <input
@@ -205,7 +205,7 @@ export default function ContactSection() {
 
               {/* Message */}
               <div>
-                <label className="font-barlow text-sm text-white/70 uppercase tracking-widest mb-2 block">
+                <label className="font-barlow text-sm text-secondary-text/80 uppercase tracking-widest mb-2 block">
                   Your Message <span className="text-gold">*</span>
                 </label>
                 <textarea

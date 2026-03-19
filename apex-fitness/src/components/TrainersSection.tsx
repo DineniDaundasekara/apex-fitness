@@ -51,10 +51,10 @@ export default function TrainersSection() {
             <span className="w-12 h-px bg-gold/50" />
           </div>
           <h2 className="font-bebas text-5xl md:text-6xl lg:text-7xl leading-none">
-            <span className="text-white">MEET OUR </span>
+            <span className="text-primary-text">MEET OUR </span>
             <span className="text-gold">TRAINERS</span>
           </h2>
-          <p className="text-white/60 max-w-xl mx-auto mt-4">
+          <p className="text-secondary-text max-w-xl mx-auto mt-4">
             Our certified fitness professionals are here to guide you every step of the way.
           </p>
         </div>
@@ -93,9 +93,9 @@ export default function TrainersSection() {
 
               {/* Info */}
               <div className="p-5">
-                <h3 className="font-barlow font-700 text-white text-lg tracking-wide">{trainer.name}</h3>
+                <h3 className="font-barlow font-700 text-primary-text text-lg tracking-wide">{trainer.name}</h3>
                 <p className="text-gold text-sm font-barlow tracking-wide mt-0.5">{trainer.role}</p>
-                <p className="text-white/40 text-xs mt-1">{trainer.experience}</p>
+                <p className="text-secondary-text/60 text-xs mt-1">{trainer.experience}</p>
               </div>
             </div>
           ))}

@@ -71,10 +71,10 @@ export default function PricingSection() {
             <span className="w-12 h-px bg-gold/50" />
           </div>
           <h2 className="font-bebas text-5xl md:text-6xl lg:text-7xl leading-none">
-            <span className="text-white">MEMBERSHIP </span>
+            <span className="text-primary-text">MEMBERSHIP </span>
             <span className="text-gold">PLANS</span>
           </h2>
-          <p className="text-white/60 max-w-xl mx-auto mt-4">
+          <p className="text-secondary-text max-w-xl mx-auto mt-4">
             Choose the plan that fits your lifestyle and fitness goals. No hidden fees.
           </p>
         </div>
@@ -100,10 +100,10 @@ export default function PricingSection() {
               )}
 
               <div className="mb-6">
-                <h3 className={`font-bebas text-3xl tracking-wider mb-1 ${plan.popular ? "text-black" : "text-white"}`}>
+                <h3 className={`font-bebas text-3xl tracking-wider mb-1 ${plan.popular ? "text-black" : "text-primary-text"}`}>
                   {plan.name}
                 </h3>
-                <p className={`font-barlow text-sm tracking-wide ${plan.popular ? "text-black/70" : "text-white/50"}`}>
+                <p className={`font-barlow text-sm tracking-wide ${plan.popular ? "text-black/70" : "text-secondary-text"}`}>
                   {plan.label}
                 </p>
               </div>
@@ -112,7 +112,7 @@ export default function PricingSection() {
                 <span className={`font-bebas text-6xl ${plan.popular ? "text-black" : "text-gold"}`}>
                   ${plan.price}
                 </span>
-                <span className={`text-sm ml-1 ${plan.popular ? "text-black/60" : "text-white/40"}`}>/month</span>
+                <span className={`text-sm ml-1 ${plan.popular ? "text-black/60" : "text-secondary-text/60"}`}>/month</span>
               </div>
 
               <ul className="flex flex-col gap-3 mb-8">
@@ -122,7 +122,7 @@ export default function PricingSection() {
                       size={16}
                       className={`flex-shrink-0 ${plan.popular ? "text-black" : "text-gold"}`}
                     />
-                    <span className={`text-sm font-barlow ${plan.popular ? "text-black" : "text-white/70"}`}>
+                    <span className={`text-sm font-barlow ${plan.popular ? "text-black" : "text-secondary-text"}`}>
                       {feat}
                     </span>
                   </li>

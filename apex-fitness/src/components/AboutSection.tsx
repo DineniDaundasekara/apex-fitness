@@ -34,7 +34,7 @@ export default function AboutSection() {
             {/* Floating badge */}
             <div className="absolute -bottom-6 -right-6 card-dark rounded-xl p-5 glow-gold">
               <div className="font-bebas text-4xl text-gold">10+</div>
-              <div className="text-white/60 text-xs font-barlow tracking-widest uppercase">Years of Excellence</div>
+              <div className="text-secondary-text text-xs font-barlow tracking-widest uppercase">Years of Excellence</div>
             </div>
 
             {/* Decorative element */}
@@ -55,17 +55,17 @@ export default function AboutSection() {
             </div>
 
             <h2 className="font-bebas text-5xl md:text-6xl lg:text-7xl leading-none mb-6">
-              <span className="text-white">TRANSFORM YOUR</span>
+              <span className="text-primary-text">TRANSFORM YOUR</span>
               <br />
               <span className="text-gold">FITNESS JOURNEY</span>
             </h2>
 
-            <p className="text-white/70 text-base leading-relaxed mb-4">
+            <p className="text-secondary-text text-base leading-relaxed mb-4">
               At Apex Fitness, we&apos;re more than just a gym. We&apos;re your partner in achieving
               extraordinary results. Our state-of-the-art facility combines cutting-edge equipment
               with expert guidance to help you unlock your full potential.
             </p>
-            <p className="text-white/60 text-base leading-relaxed mb-8">
+            <p className="text-secondary-text/80 text-base leading-relaxed mb-8">
               Every detail has been crafted to elevate your training experience — from luxury
               amenities to our expert trainers. We provide everything you need to achieve your
               fitness goals.
@@ -79,8 +79,8 @@ export default function AboutSection() {
                     <Icon size={18} className="text-gold" />
                   </div>
                   <div>
-                    <div className="font-barlow font-700 text-white tracking-wide uppercase text-sm">{title}</div>
-                    <div className="text-white/50 text-sm">{desc}</div>
+                    <div className="font-barlow font-700 text-primary-text tracking-wide uppercase text-sm">{title}</div>
+                    <div className="text-secondary-text text-sm">{desc}</div>
                   </div>
                 </div>
               ))}
@@ -91,7 +91,7 @@ export default function AboutSection() {
               {[["500+", "Members"], ["15+", "Trainers"], ["24/7", "Access"]].map(([val, label]) => (
                 <div key={label}>
                   <div className="font-bebas text-3xl text-gold">{val}</div>
-                  <div className="text-white/50 text-xs font-barlow tracking-widest uppercase">{label}</div>
+                  <div className="text-secondary-text text-xs font-barlow tracking-widest uppercase">{label}</div>
                 </div>
               ))}
             </div>

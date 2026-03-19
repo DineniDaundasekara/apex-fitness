@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import Image from "/logo.jpg"; // Replace with actual logo path
+import Image from "next/image"; // Replace with actual logo path
 
 const navLinks = [
   { label: "Home", href: "#home" },

@@ -120,7 +120,7 @@ export default function HeroSection() {
             }`}
             style={{ transitionDelay: "0.2s" }}
           >
-            <span className="block text-white text-[clamp(56px,10vw,120px)]">TRANSFORM</span>
+            <span className="block text-white text-[clamp(56px,10vw,120px)]">TRANSFORM </span>
             <span className="block text-[clamp(56px,10vw,120px)]">
               YOUR{" "}
               <span

@@ -34,13 +34,13 @@ function StatCard({ value, suffix, label, delay, trigger }: {
   const count = useCountUp(value, 2000, trigger);
   return (
     <div
-      className="flex-1 card-dark rounded-lg p-5 text-center shadow-lg dark:shadow-none"
+      className="flex-1 card-dark rounded-lg p-5 text-center"
       style={{ animationDelay: `${delay}ms` }}
     >
       <div className="font-bebas text-4xl md:text-5xl text-gold tracking-wider">
         {count}{suffix}
       </div>
-      <div className="text-secondary-text text-sm font-barlow tracking-widest uppercase mt-1">
+      <div className="text-white/60 text-sm font-barlow tracking-widest uppercase mt-1">
         {label}
       </div>
     </div>
@@ -75,21 +75,18 @@ export default function HeroSection() {
       id="home"
       className="relative min-h-screen flex flex-col justify-center overflow-hidden noise-overlay"
       style={{
-        background: "var(--hero-bg)",
+        background: "linear-gradient(135deg, #0a0a0a 0%, #0f0f0f 50%, #0a0a0a 100%)",
       }}
     >
       {/* Background gym image overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60 dark:opacity-20"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
         style={{
           backgroundImage: `url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=80')`,
         }}
       />
       {/* Dark gradient overlay */}
-      <div 
-        className="absolute inset-0"
-        style={{ background: "var(--hero-overlay)" }}
-      />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/90" />
 
       {/* Decorative gold line */}
       <div className="absolute left-0 top-1/4 h-px w-1/3 bg-gradient-to-r from-transparent to-gold/40" />
@@ -185,7 +182,7 @@ export default function HeroSection() {
       {/* Scroll indicator */}
       <button
         onClick={scrollDown}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-primary-text/40 hover:text-gold transition-colors animate-bounce"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-white/40 hover:text-gold transition-colors animate-bounce"
         aria-label="Scroll down"
       >
         <ChevronDown size={32} />

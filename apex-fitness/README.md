@@ -24,7 +24,7 @@ Follow these steps to set up the project locally:
 
 2. **Navigate to the project directory**:
    ```bash
-   cd apex-fitness/apex-fitness
+   cd apex-fitness
    ```
 
 3. **Install dependencies**:
@@ -46,5 +46,5 @@ Follow these steps to set up the project locally:
 ## 🌐 Live Link
 
 Check out the live version of the project here:  
-**[Apex Fitness Live Demo](https://apex-fitness-qnxq.vercel.app/)**
+**[Apex Fitness Live Demo](https://apex-fitness-chi.vercel.app/)**
 *(Note: Replace with your actual deployment URL if different)*

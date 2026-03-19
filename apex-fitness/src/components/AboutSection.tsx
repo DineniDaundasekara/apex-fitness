@@ -87,7 +87,7 @@ export default function AboutSection() {
             </div>
 
             {/* Stats row */}
-            <div className="flex gap-8 pt-6 border-t border-white/10">
+            <div className="flex gap-8 pt-6 border-t border-border-color">
               {[["500+", "Members"], ["15+", "Trainers"], ["24/7", "Access"]].map(([val, label]) => (
                 <div key={label}>
                   <div className="font-bebas text-3xl text-gold">{val}</div>

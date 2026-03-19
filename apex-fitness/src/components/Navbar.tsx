@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import Image from "next/image";
+import Image from "/logo.jpg"; // Replace with actual logo path
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -41,7 +41,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2 group" onClick={() => handleNavClick("Home", "#home")}>
-          {/* Replace with actual logo: <Image src="/logo.png" alt="APEX" width={120} height={40} /> */}
+          <Image src="/logo.jpg" alt="APEX" width={120} height={40} /> 
           <div className="flex items-center gap-2">
             <div className="w-9 h-9 bg-gold flex items-center justify-center rounded-sm font-bebas text-black text-xl font-bold">
               A
